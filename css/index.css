@@ -16,13 +16,15 @@ li {
   display: grid;
   grid-template-columns: repeat(8, auto);
   grid-template-rows: repeat(8, auto);
-  padding: 2vw;
+  background-color: #fafafa;
+  padding: 1vw;
   font-family: "Work Sans", sans-serif;
 }
 
 .head-nav {
   display: grid;
-  margin: 5vw;
+  margin: 1vw;
+  padding: 1vw;
 }
 
 .head-ul {
@@ -32,12 +34,50 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 2vw;
+  font-size: 1vw;
 }
 
 .health {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #1a1a1a;
+  font-size: 2vw;
 }
 
 .food {
   color: #8e2b2b;
+}
+
+.healfood {
+  background-color: #eccccc;
+  color: #e31515;
+  font-size: 1vw;
+  margin: 0 10vw;
+}
+
+.bestfood {
+  color: #1a1a1a;
+  font-size: 4vw;
+  margin: 0 10vw;
+}
+
+.lorem-1 {
+  color: #585656;
+  font-size: 1vw;
+  margin: 0 10vw;
+}
+
+.whywe {
+  color: #1a1a1a;
+  margin: 10vw 0 10vw 40vw;
+}
+
+.lorem-2 {
+  color: #7e7c7c;
+  margin: 0vw 0 40vw 55vw;
+  font-size: 1vw;
 }

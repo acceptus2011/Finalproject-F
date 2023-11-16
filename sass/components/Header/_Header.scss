@@ -1,15 +1,23 @@
 .head-nav {
     display: grid;
-    margin: 5vw;
+    margin: 1vw;
+    padding: 1vw;
 }
 
 .head-ul {
     display: flex;
+    // grid-template-columns: repeat(8, auto);
+    // grid-template-rows: repeat(8, auto);
     justify-content: center;
+    align-content: center;
+    padding: 2vw;
+    font-size: 1vw;
 }
 
 .health {
+    display: flex;
     color: #1a1a1a;
+    font-size: 2vw;
 }
 
 .food {
