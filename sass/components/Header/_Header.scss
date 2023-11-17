@@ -1,13 +1,29 @@
+.box-vertical {
+    display: inline-block;
+    width: 36vw;
+    height: 45vw;
+    border-bottom-right-radius: 18vw;
+    border-bottom-left-radius: 18vw;
+    background-color: #1a1a1a;
+    margin: 0 20vw;
+    padding: 0;
+}
+
+.narezki-3 {
+    margin: 0 20vw;
+    padding: 0;
+}
+
 .head-nav {
-    display: grid;
+    display: flex;
+    flex-flow: row nowrap;
     margin: 1vw;
     padding: 1vw;
 }
 
 .head-ul {
     display: flex;
-    // grid-template-columns: repeat(8, auto);
-    // grid-template-rows: repeat(8, auto);
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     padding: 2vw;
@@ -15,11 +31,29 @@
 }
 
 .health {
-    display: flex;
     color: #1a1a1a;
     font-size: 2vw;
 }
 
 .food {
     color: #8e2b2b;
+}
+
+.box-vertical,
+narezki-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.gs-btn {
+    text-decoration: none;
+    border: 0;
+    padding: 1vw 3vw;
+    margin: 0 5vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    color: #fafafa;
+    background-color: #f6a079;
+    // transition: all 1s;
 }

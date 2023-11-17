@@ -1,4 +1,5 @@
 .healfood {
+    display: flex;
     background-color: #eccccc;
     color: #e31515;
     font-size: 1vw;
@@ -15,4 +16,23 @@
     color: #585656;
     font-size: 1vw;
     margin: 0 10vw;
+}
+
+.box-horizontal {
+    display: inline-block;
+    width: 24vw;
+    height: 18vw;
+    border-top-right-radius: 9vw;
+    border-bottom-right-radius: 9vw;
+    background-color: #1a1a1a;
+    margin: 0 20vw;
+    padding: 0;
+}
+
+.box-horizontal,
+narezki-50 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-left;
+    align-content: center;
 }

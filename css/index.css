@@ -13,16 +13,38 @@ li {
 }
 
 .body {
-  display: grid;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(8, auto);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fafafa;
   padding: 1vw;
   font-family: "Work Sans", sans-serif;
 }
 
+.box-vertical {
+  display: inline-block;
+  width: 36vw;
+  height: 45vw;
+  border-bottom-right-radius: 18vw;
+  border-bottom-left-radius: 18vw;
+  background-color: #1a1a1a;
+  margin: 0 20vw;
+  padding: 0;
+}
+
+.narezki-3 {
+  margin: 0 20vw;
+  padding: 0;
+}
+
 .head-nav {
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 1vw;
   padding: 1vw;
 }
@@ -31,6 +53,8 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -41,9 +65,6 @@ li {
 }
 
 .health {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   color: #1a1a1a;
   font-size: 2vw;
 }
@@ -52,7 +73,33 @@ li {
   color: #8e2b2b;
 }
 
+.box-vertical,
+narezki-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.gs-btn {
+  text-decoration: none;
+  border: 0;
+  padding: 1vw 3vw;
+  margin: 0 5vw;
+  font-size: 1vw;
+  border-radius: 1vw;
+  color: #fafafa;
+  background-color: #f6a079;
+}
+
 .healfood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #eccccc;
   color: #e31515;
   font-size: 1vw;
@@ -69,6 +116,33 @@ li {
   color: #585656;
   font-size: 1vw;
   margin: 0 10vw;
+}
+
+.box-horizontal {
+  display: inline-block;
+  width: 24vw;
+  height: 18vw;
+  border-top-right-radius: 9vw;
+  border-bottom-right-radius: 9vw;
+  background-color: #1a1a1a;
+  margin: 0 20vw;
+  padding: 0;
+}
+
+.box-horizontal,
+narezki-50 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: flex-left;
+      -ms-flex-pack: flex-left;
+          justify-content: flex-left;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .whywe {

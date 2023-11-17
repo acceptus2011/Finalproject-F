@@ -12,9 +12,7 @@ li {
 }
 
 .body {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    grid-template-rows: repeat(8, auto);
+    display: flex;
     background-color: #fafafa;
     padding: 1vw;
     font-family: "Work Sans", sans-serif;
