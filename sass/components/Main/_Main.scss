@@ -36,3 +36,40 @@ narezki-50 {
     justify-content: flex-left;
     align-content: center;
 }
+
+.box-hor-nar {
+    display: flex-row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.order-now {
+    text-decoration: none;
+    border: 0;
+    padding: 1vw 3vw;
+    margin: 0 5vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    color: #fafafa;
+    background-color: #f6a079;
+    // transition: all 1s;
+}
+
+.delicious {
+    text-decoration: none;
+    border: 0;
+    padding: 1vw 3vw;
+    margin: 0 5vw;
+    font-size: 1vw;
+    border-radius: 1vw;
+    color: #fafafa;
+    background-color: #f6a079;
+}
+
+.money {
+    color: #fafafa;
+}
+
+.$ {
+    color: #9a0e0e;
+}

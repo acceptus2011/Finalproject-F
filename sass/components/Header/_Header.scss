@@ -39,9 +39,14 @@
     color: #8e2b2b;
 }
 
-.box-vertical,
-narezki-3 {
-    display: flex;
+.box-hor-nar {
+    display: flex-row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.box-ver-nar {
+    display: flex-column;
     justify-content: flex-end;
     align-content: center;
 }
