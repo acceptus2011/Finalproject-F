@@ -73,15 +73,6 @@ li {
   color: #8e2b2b;
 }
 
-.box-hor-nar {
-  display: flex-row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
 .box-ver-nar {
   display: flex-column;
   -webkit-box-pack: end;
@@ -169,6 +160,25 @@ narezki-50 {
   border-radius: 1vw;
   color: #fafafa;
   background-color: #f6a079;
+}
+
+.delicious {
+  text-decoration: none;
+  border: 0;
+  padding: 1vw 3vw;
+  margin: 0 5vw;
+  font-size: 1vw;
+  border-radius: 1vw;
+  color: #fafafa;
+  background-color: #f6a079;
+}
+
+.money {
+  color: #fafafa;
+}
+
+.money-1 {
+  color: #9a0e0e;
 }
 
 .whywe {
