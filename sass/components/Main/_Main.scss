@@ -26,23 +26,27 @@
     border-top-right-radius: 9vw;
     border-bottom-right-radius: 9vw;
     background-color: #1a1a1a;
-    margin: 0 20vw;
+    margin: 0 60vw 0 0;
     padding: 0;
 }
 
-.box-horizontal,
-narezki-50 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-left;
-    align-content: center;
+// .box-horizontal,
+// narezki-50 {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-left;
+//     align-content: center;
+// }
+
+.narezki-3 {
+    margin: 0 10vw 0 57vw;
 }
 
-.box-hor-nar {
-    display: flex-row;
-    justify-content: flex-end;
-    align-content: center;
-}
+// .box-hor-nar {
+//     display: flex-row;
+//     justify-content: flex-end;
+//     align-content: center;
+// }
 
 .order-now {
     text-decoration: none;
@@ -57,14 +61,25 @@ narezki-50 {
 }
 
 .delicious {
-    text-decoration: none;
-    border: 0;
-    padding: 1vw 3vw;
-    margin: 0 5vw;
-    font-size: 1vw;
-    border-radius: 1vw;
-    color: #fafafa;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 25vw;
+    height: 8vw;
+    border-radius: 5vw;
     background-color: #66b779;
+    color: #fafafa;
+    margin-top: -200px;
+    z-index: 0;
+    p {
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+        display: flex;
+    }
 }
 
 .money {
@@ -73,4 +88,12 @@ narezki-50 {
 
 .money-1 {
     color: #9a0e0e;
+}
+
+.main-ul {
+    margin-top: 100px;
+}
+
+.narezki-3 {
+    margin-top: -100px;
 }
