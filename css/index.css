@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 a {
@@ -12,13 +13,38 @@ li {
   list-style: none;
 }
 
-.body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body {
   background-color: #fafafa;
-  padding: 1vw;
-  font-family: "Work Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.PositionHeaderFather {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 45%;
+}
+
+header {
+  position: relative;
+  height: 98px;
+}
+header nav {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+main,
+footer {
+  position: relative;
+  z-index: 1;
 }
 
 .box-vertical {
@@ -38,30 +64,19 @@ li {
 }
 
 .head-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
   margin: 1vw;
   padding: 1vw;
 }
 
 .head-ul {
+  padding: 2vw;
+  font-size: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding: 2vw;
-  font-size: 1vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .health {
@@ -93,10 +108,33 @@ li {
   background-color: #f6a079;
 }
 
-.healfood {
+.PositionHeaderFather__list {
+  position: relative;
+}
+
+.PositionHeaderFather__list-item__Father {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.PositionHeaderFather__list-item__Childs {
+  position: absolute;
+  margin-top: 138px;
+}
+.PositionHeaderFather__list-item__Childs ul {
+  width: 572px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.healfood {
+  display: inline-block;
+  padding: 10px 20px;
   background-color: #eccccc;
   color: #e31515;
   font-size: 1vw;
@@ -170,7 +208,7 @@ narezki-50 {
   font-size: 1vw;
   border-radius: 1vw;
   color: #fafafa;
-  background-color: #f6a079;
+  background-color: #66b779;
 }
 
 .money {

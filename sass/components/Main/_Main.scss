@@ -1,5 +1,6 @@
 .healfood {
-    display: flex;
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #eccccc;
     color: #e31515;
     font-size: 1vw;
@@ -63,7 +64,7 @@ narezki-50 {
     font-size: 1vw;
     border-radius: 1vw;
     color: #fafafa;
-    background-color: #f6a079;
+    background-color: #66b779;
 }
 
 .money {
