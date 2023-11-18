@@ -88,6 +88,13 @@ footer {
   color: #8e2b2b;
 }
 
+.H-A-Sh-C {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2vw;
+}
+
 .box-ver-nar {
   display: flex-column;
   -webkit-box-pack: end;
